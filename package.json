@@ -1,0 +1,14 @@
+{
+  "name": "base",
+  "version": "1.0.0",
+  "description": "Projet TypeScript de base pour IFT359",
+  "scripts": {
+    "build": "tsc",
+    "exec": "node dist/index.js",
+    "clean": "rm -rf dist",
+    "dev": "npx tsx watch src/index.ts"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  }
+}
