@@ -1,3 +1,7 @@
-import { MESSAGE } from "./utils/constants";
+import { MESSAGE } from "./utils/constants.js";
 
-console.log(MESSAGE);
+export function message(): string {
+  return MESSAGE;
+}
+
+console.log(message());
